@@ -16,7 +16,7 @@ public class SampleTest {
 
 	@RequestMapping(value = "/", produces = "text/plain;charset=UTF-8")
 	public String index() {
-		return "Hello Spring Boot!111";
+		return "Hello Spring Boot!";
 	}
 
 }
